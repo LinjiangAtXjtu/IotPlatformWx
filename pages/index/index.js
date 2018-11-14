@@ -14,7 +14,7 @@ Page({
     wx.navigateTo({
       url: '../logs/logs'
     })
-  },
+  },//4564654654
   uploadPictures:function() {
     wx.chooseImage({
       success(res) {
