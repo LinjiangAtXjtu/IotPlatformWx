@@ -1,0 +1,5 @@
+<!--pages/share/share.wxml-->
+<text>pages/share/share.wxml</text>
+<view class="container">
+    <button bindtap="uploadPictures"> + </button>
+</view>

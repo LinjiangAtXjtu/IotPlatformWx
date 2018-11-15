@@ -4,36 +4,30 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'IotPlatform',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  gotoHealth:function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../health/healthindex/healthindex'
     })
-  },//4564654654jlsdkjflksdjf
-  uploadPictures:function() {
-    wx.chooseImage({
-      success(res) {
-        const tempFilePaths = res.tempFilePaths
-        wx.uploadFile({
-          url: 'http://192.168.0.141:5000/pictureUpload',
-          filePath: tempFilePaths[0],
-          name: 'file',
-          success(res) {
-            const data = res.data
-            //do something
-            wx.showToast({
-              title: '上传成功',
-              icon: 'success',
-              duration: 1000//持续的时间
-            })
-          }
-        })
-      }
+  },
+  gotoShare: function () {
+    wx.navigateTo({
+      url: '../share/share'
+    })
+  },
+  gotoRank: function () {
+    wx.navigateTo({
+      url: '../rank/rank'
+    })
+  },
+  gotoFeedback: function () {
+    wx.navigateTo({
+      url: '../feedback/feedback'
     })
   },
   onLoad: function () {

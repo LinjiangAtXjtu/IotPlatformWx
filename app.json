@@ -1,12 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/feedback/feedback",
+    "pages/health/healthindex/healthindex",
+    "pages/rank/rankindex/rank",
+    "pages/rank/rank",
+    "pages/share/share",
+    "pages/health/diet/diet",
+    "pages/health/footsteps/footsteps",
+    "pages/health/trajectory/trajectory"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
