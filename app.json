@@ -8,7 +8,8 @@
     "pages/share/share",
     "pages/health/diet/diet",
     "pages/health/footsteps/footsteps",
-    "pages/health/trajectory/trajectory"
+    "pages/health/trajectory/trajectory",
+    "test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

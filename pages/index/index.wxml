@@ -11,6 +11,7 @@
     <button bindtap="gotoHealth"> 健康 </button>
     <button bindtap="gotoShare"> 分享 </button>
     <button bindtap="gotoRank"> 排行 </button>
+    <button bindtap="gotoTest"> 测试 </button>
     <text bindtap="gotoFeedback">---联系我们---</text>
   </view>
 </view>

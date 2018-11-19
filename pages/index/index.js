@@ -30,6 +30,11 @@ Page({
       url: '../feedback/feedback'
     })
   },
+  gotoTest: function () {
+    wx.navigateTo({
+      url: '../../test/test'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
