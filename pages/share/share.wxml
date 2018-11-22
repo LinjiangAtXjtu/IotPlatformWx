@@ -1,5 +1,12 @@
 <!--pages/share/share.wxml-->
-<text>pages/share/share.wxml</text>
 <view class="container">
     <button bindtap="uploadPictures"> + </button>
+</view>
+<view>
+  <view class= "card" wx:for = "{{items}}">
+    <view  data-url="{{item.url}}">
+       <view class="title">{{item.user_ID}}'  '{{item.time}}</view>
+       <image class= "image" mode="aspectFill" src="{{item.url}}"/>
+    </view>
+  </view>
 </view>
