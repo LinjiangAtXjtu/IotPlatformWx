@@ -28,11 +28,11 @@ Page({
   onload: function(){
     var that = this;
     wx.request({
-      url: 'http://192.168.99.147:5000/shareShow',
+      url: 'http://127.0.0.1:5000/shareShow',
       success(res) {
         var list = that.data.items;
-        for (var i = 0; i < res.data.items.length; i++) {
-          list.push(res.data.items[i]);
+        for (var i = 0; i < res.data.list.length; i++) {
+          list.push(res.data.list[i]);
         }
         that.setData({
           items: list

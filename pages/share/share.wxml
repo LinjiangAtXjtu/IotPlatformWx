@@ -4,9 +4,9 @@
 </view>
 <view>
   <view class= "card" wx:for = "{{items}}">
-    <view  data-url="{{item.url}}">
-       <view class="title">{{item.user_ID}}'  '{{item.time}}</view>
-       <image class= "image" mode="aspectFill" src="{{item.url}}"/>
+    <view data-url="{{item.location}}">
+       <view class="title">{{item.user_ID}}</view>
+       <image class= "image" mode="aspectFill" src="{{item.location}}"/>
     </view>
   </view>
 </view>
